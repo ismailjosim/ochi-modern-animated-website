@@ -1,6 +1,6 @@
 const Header = () => {
     return (
-        <header className='w-full px-20 py-8 font-Neue flex justify-between items-center'>
+        <header className='w-full fixed z-[999] px-20 py-8 font-Neue flex justify-between items-center'>
             <div>
                 <a href='#'>
                     <svg

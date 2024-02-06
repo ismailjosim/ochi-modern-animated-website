@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      Neue: "Neue Montreal"
+      Neue: "Neue Montreal",
+      Founder: "Test Founders Grotesk X-Condensed"
     }
   },
   plugins: [],
