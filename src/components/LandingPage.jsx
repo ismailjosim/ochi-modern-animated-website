@@ -2,7 +2,7 @@ import { GoArrowUpRight } from 'react-icons/go'
 
 const LandingPage = () => {
     return (
-        <section className='w-full h-screen bg-zinc-900 pt-2'>
+        <section className='w-full h-screen bg-zinc-900 pt-1'>
             <div className='textStructure mt-40 px-20'>
                 { ['We Create', 'Eye opening', 'presentation'].map((item, idx) => {
                     return (
