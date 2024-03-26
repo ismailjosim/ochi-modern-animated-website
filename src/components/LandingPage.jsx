@@ -4,19 +4,20 @@ const LandingPage = () => {
     return (
         <section className='w-full h-screen bg-zinc-900 pt-2'>
             <div className='textStructure mt-40 px-20'>
-                {
-                    ['We Create', 'Eye opening', 'presentation'].map((item, idx) => {
-                        return (
-                            <div key={ idx } className='masker'>
-                                <div className='w-fit flex items-center'>
-                                    { idx === 1 && <div className='w-28 h-16 bg-red-500 mr-5 rounded'> </div> }
-                                    <h1 className='font-Founder uppercase text-8xl leading-none tracking-tighter font-semibold'>
-                                        { item }
-                                    </h1>
-                                </div>
+                { ['We Create', 'Eye opening', 'presentation'].map((item, idx) => {
+                    return (
+                        <div key={ idx } className='masker'>
+                            <div className='w-fit flex items-center'>
+                                { idx === 1 && (
+                                    <div className='w-28 h-16 bg-green-500 mr-5 rounded'> </div>
+                                ) }
+                                <h1 className='font-Founder uppercase text-8xl leading-none tracking-tighter font-semibold'>
+                                    { item }
+                                </h1>
                             </div>
-                        )
-                    }) }
+                        </div>
+                    )
+                }) }
             </div>
             <div className='border-t border-zinc-700 mt-32 flex justify-between items-center py-5 px-20 font-Neue'>
                 { [
